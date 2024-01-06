@@ -1,0 +1,32 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"bridge:pig_2x": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.pig_2x.say",
+					"hurt": "mob.pig_2x.say",
+					"death": "mob.pig_2x.death",
+					"step": {
+						"sound": "mob.pig_2x.step",
+						"volume": 0.15,
+						"pitch": 1
+					},
+					"boost": {
+						"sound": "mob.pig_2x.boost",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death.to.zombie": {
+						"sound": "mob.pig_2x.death",
+						"volume": 2
+					}
+				}
+			}
+		}
+	}
+}

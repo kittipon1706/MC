@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bridge:test_npc",
+			"materials": {
+				"default": "villager"
+			},
+			"textures": {
+				"default": "textures/entity/test_npc"
+			},
+			"geometry": {
+				"default": "geometry.test_npc"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"general": "animation.test_npc.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.test_npc.raise_arms",
+				"move": "animation.test_npc.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.test_npc.general"
+				},
+				{
+					"raise_arms": "controller.animation.test_npc.general"
+				},
+				{
+					"move": "controller.animation.test_npc.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.test_npc"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

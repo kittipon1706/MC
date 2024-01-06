@@ -1,0 +1,16 @@
+
+[
+	
+	{
+		"file_version" : 2
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "/6W3FrWleDf3kp38yktN/euXIQp/1aEtLxl4hG1vF0M=" ],
+		"path" : "C:/Users/kitti/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/test_RP",
+		"uuid" : "00000000-0000-0000-0000-000000000000",
+		"version" : "0.0.0"
+	}
+]

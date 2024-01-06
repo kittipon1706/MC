@@ -1,0 +1,5 @@
+pack.name=Wiki Resource Pack
+pack.description=A Ghostly Guide
+item.wiki:ectoplasm=Ectoplasm
+entity.wiki:ghost.name=Ghost
+item.spawn_egg.entity.wiki:ghost.name=Ghost

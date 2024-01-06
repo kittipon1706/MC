@@ -1,0 +1,1 @@
+execute as @a at @s[x=1094,y=-12,z=60,r=2] run teleport @p 1023 -42 73

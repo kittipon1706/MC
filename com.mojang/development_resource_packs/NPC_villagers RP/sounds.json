@@ -1,0 +1,38 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"bridge:new_npc1": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.new_npc1.idle",
+					"hurt": "mob.new_npc1.hit",
+					"death": "mob.new_npc1.death",
+					"death.to.zombie": "mob.new_npc1.death",
+					"haggle": "mob.new_npc1.haggle",
+					"haggle.yes": "mob.new_npc1.yes",
+					"haggle.no": "mob.new_npc1.no"
+				}
+			},
+			"bridge:test_npc": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.test_npc.idle",
+					"hurt": "mob.test_npc.hit",
+					"death": "mob.test_npc.death",
+					"death.to.zombie": "mob.test_npc.death",
+					"haggle": "mob.test_npc.haggle",
+					"haggle.yes": "mob.test_npc.yes",
+					"haggle.no": "mob.test_npc.no"
+				}
+			}
+		}
+	}
+}

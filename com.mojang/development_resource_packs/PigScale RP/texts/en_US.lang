@@ -1,0 +1,4 @@
+pack.name=PigScale RP
+pack.description=
+item.spawn_egg.entity.bridge:new_pig.name=Spawn newPig
+entity.bridge:new_pig.name=newPig

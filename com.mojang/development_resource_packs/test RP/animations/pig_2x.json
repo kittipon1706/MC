@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pig_2x.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [
+						0,
+						4,
+						4
+					],
+					"scale": 2
+				}
+			}
+		},
+		"animation.pig_2x.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.pig_2x.setup.v1.0": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"90-this",
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

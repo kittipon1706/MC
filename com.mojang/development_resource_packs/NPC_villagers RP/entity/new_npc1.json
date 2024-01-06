@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bridge:new_npc1",
+			"materials": {
+				"default": "villager"
+			},
+			"textures": {
+				"default": "textures/entity/new_npc1"
+			},
+			"geometry": {
+				"default": "geometry.new_npc1"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"general": "animation.new_npc1.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.new_npc1.raise_arms",
+				"move": "animation.new_npc1.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.new_npc1.general"
+				},
+				{
+					"raise_arms": "controller.animation.new_npc1.general"
+				},
+				{
+					"move": "controller.animation.new_npc1.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.new_npc1"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

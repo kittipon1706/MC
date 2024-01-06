@@ -1,0 +1,12 @@
+pack.name=NPC_villagers RP
+pack.description=
+item.spawn_egg.entity.bridge:new_npc1.name=Spawn NPC1
+entity.bridge:new_npc1.name=NPC1
+item.spawn_egg.entity.bridge:test_npc.name=Spawn testNPC
+entity.bridge:test_npc.name=testNPC
+item.spawn_egg.entity.bridge:npc_npc.name=Spawn NPC
+entity.bridge:npc_npc.name=NPC
+item.spawn_egg.entity.bridge:checkpoint_1.name=Spawn Checkpoint1
+entity.bridge:checkpoint_1.name=Checkpoint1
+item.spawn_egg.entity.bridge:checkpoint_2.name=Spawn Checkpoint2
+entity.bridge:checkpoint_2.name=Checkpoint2

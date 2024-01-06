@@ -1,0 +1,4 @@
+pack.name=test RP
+pack.description=
+item.spawn_egg.entity.bridge:pig_2x.name=Spawn Pig2x
+entity.bridge:pig_2x.name=Pig2x

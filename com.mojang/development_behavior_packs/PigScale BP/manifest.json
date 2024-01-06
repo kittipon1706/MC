@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"bridge."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.8"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "96f364c6-f456-430c-9af3-b25b4d5ea10a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "90b77296-012c-428d-9a84-787d0d433460",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wiki:ghost",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ghost"
+			},
+			"geometry": {
+				"default": "geometry.ghost"
+			},
+			"scripts": {
+				"animate": ["walk_controller", "attack_controller"]
+			},
+			"animations": {
+				"walk_controller": "controller.animation.ghost.walk",
+				"attack_controller": "controller.animation.ghost.attack",
+				"attack": "animation.ghost.attack",
+				"idle": "animation.ghost.idle",
+				"move": "animation.ghost.move"
+			},
+			"spawn_egg": {
+				"overlay_color": "#bdd1d1",
+				"base_color": "#9fb3b3"
+			},
+			"render_controllers": ["controller.render.ghost"]
+		}
+	}
+}
